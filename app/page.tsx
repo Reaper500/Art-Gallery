@@ -41,12 +41,12 @@ export default function Home() {
               </p>
               <p className="hidden sm:block">
                 Our journey began with a love for exploring different mediums, techniques, and perspectives. Every piece 
-                in our collection tells a story—whether it's the <span className="text-purple-400 font-medium">quiet moments of inspiration</span>, the bold strokes of experimentation, 
-                or the joyful celebration of life's beautiful moments.
+                in our collection tells a story—whether it&apos;s the <span className="text-purple-400 font-medium">quiet moments of inspiration</span>, the bold strokes of experimentation, 
+                or the joyful celebration of life&apos;s beautiful moments.
               </p>
               <p className="sm:hidden">
                 Every piece in our collection tells a story of <span className="text-purple-400 font-medium">inspiration, experimentation</span>, 
-                and the celebration of life's beautiful moments.
+                and the celebration of life&apos;s beautiful moments.
               </p>
               <p className="font-medium text-purple-400">
                 We invite you to explore, connect, and find something that speaks to your heart.
@@ -303,7 +303,7 @@ function ArtworkModal({ artwork, onClose }: { artwork: any; onClose: () => void 
 
   return (
     <ImageModal
-      imageUrl={imageUrl}
+      imageUrl={imageUrl || null}
       title={artwork.title}
       artist={artwork.artist}
       description={artwork.description}

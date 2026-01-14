@@ -13,7 +13,7 @@ const config: Config = {
         foreground: "var(--foreground)",
       },
       fontFamily: {
-        sans: ["var(--font-nunito)", "system-ui", "sans-serif"],
+        sans: ["'Nunito'", "ui-sans-serif", "system-ui", "sans-serif"],
       },
       container: {
         center: true,
